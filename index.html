@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="He aquí mi portafolio y biografía">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./Estilos.css/index.css">
+    <script src="index.js"></script>
+    <title>Red Robles Page!</title>
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Empresa</h1>
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li><a href="?">Home</a></li>
+                <li><a href="?">Cursos</a></li>
+                <li><a href="?">Instrucciones</a></li>
+                <li><a href="?">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2>Soy un h2</h2>
+        <p>Soy un párrafo</p>
+        <h3>Soy un h3</h3>
+        <p>Soy un párrafo</p>
+        <h2>Soy un h2</h2>
+        <p>Soy un párrafo</p>
+    </div>
+    <main>
+        <section>
+            <h1>Hola, mi nombre es Red Robles y te invito a conocer mi portafolio!</h1>
+            <p>Aquí estaré presentando como vivo mis días y de que soy capaz de hacer!</p>
+        </section>
+        <section>
+            <h2>Desafío</h2>
+            <h3>Lista de compra!</h3>
+            <ul><br>
+                <li>Frutas</li>
+                    <ol>
+                        <li><a href="#">Mango</a></li>
+                        <li><a href="#">Aguacate</a></li>
+                    </ol><br>
+                <li>Carnes</li>
+                    <ol>
+                        <li><a href="#">Pescado</a></li>
+                        <li><a href="#">Pollo</a></li>
+                    </ol><br>
+                <li>Verduras</li>
+                    <ol>
+                        <li><a href="#">Lechuga</a></li>
+                        <li><a href="#">Tomate</a></li>
+                    </ol>
+            </ul>
+        </section>
+        <section>
+            <figure>
+                <img src="./Imágenes/tinified/pexels-helena-lopes-2253275_2.jpg" alt="perro-inteligente">
+                <figcaption>He aquí un perro inteligente!</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h3>Formulario</h3>
+            <form action="?">
+                <label for="nombre">
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </label><br><br>
+                <label for="inicio-Platzi">
+                    <span>Que día iniciaste en Platzi?</span>
+                    <input type="date" id="inicio-Platzi">
+                </label><br><br>
+                <label for="horario">
+                    <span>Cual es tu nombre?</span>
+                    <input type="time" id="horario">
+                </label>
+                <br><br>
+            </form>
+        </section>
+        <section>
+            <h3>Calendario</h3>
+            <form action="?">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" id="hora" name="hora">
+                </label>
+                <br><br>
+                <label for="día">
+                    <span>Día</span>
+                    <input type="date" id="día" name="día">
+                </label>
+                <br><br>
+                <label for="semana">
+                    <span>Semana</span>
+                    <input type="week" id="semana" name="semana">
+                </label>
+                <br><br>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" id="mes" name="mes">
+                </label>
+                <br><br>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h3>Nuevo Formulario</h3>
+            <form action="?">
+                <label for="nombre">
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+                </label>
+                <br><br>
+                <label for="correo">
+                    <span>Cual es tu correo?</span>
+                    <input type="email" id="correo" name="correo" placeholder="Tu correo" autocomplete="email" required>
+                </label>
+                <br><br>
+                <label for="país">
+                    <span>En que país vives?</span>
+                    <input type="text" id="país" name="país" placeholder="Tu país" autocomplete="country" required>
+                </label>
+                <br><br>
+                <label for="cp">
+                    <span>Cual es tu código postal?</span>
+                    <input type="text" id="cp" name="cp" placeholder="Tu código postal" autocomplete="postal-code" required>
+                </label>
+                <br><br>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h3>Cursos</h3>
+            <select name="Cursos" id="">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standars">Web Standars</option>
+            </select>
+        </section>
+        <section>
+            <h3>Cursos</h3>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standars"></option>
+            </datalist>
+        </section>
+    </main>
+    <section class="position">
+        <p class="box1" id="box">Este es un ejercicio de práctica</p>
+        <p class="box2">Y esto es un texto de ejemplo de la práctica a ver si es verdad que ya estoy aprendiendo a usar CC3, y más me vale que así sea, porque ya mi futuro está bajo mi responsabilidad y con la programación es que lograré terminar de cumplir mis objetivos!</p>
+    </section>
+</body>
+</html>
