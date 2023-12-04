@@ -29,7 +29,8 @@ h2 + p{
 
 .position{
     border: 2px black dotted;
-    display: inline-block;
+    display: inline-block;letter-spacing: normal;
+    margin: 24px 0;
 }
 
 #box{
